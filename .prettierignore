@@ -1,0 +1,36 @@
+# Ignore node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment files
+.env
+.env.*  
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Public/static assets
+public/
+static/
+
+# Optional: test output, coverage reports
+coverage/
+*.log
+
+# OS or IDE specific
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore anything prettier shouldn't format
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.ico
